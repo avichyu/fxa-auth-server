@@ -10,7 +10,7 @@
   },
   "sms": {
     "isStatusGeoEnabled": false,
-    "useMock": true
+    "useMock": false
   },
   "smtp": {
     "host": "127.0.0.1",

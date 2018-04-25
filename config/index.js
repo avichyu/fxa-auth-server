@@ -753,7 +753,7 @@ var conf = convict({
     },
     minimumCreditThresholdUSD: {
       doc: 'The minimum amount of available credit that is necessary to enable SMS, in US dollars',
-      default: 200,
+      default: 20000000,
       format: 'nat',
       env: 'SMS_MINIMUM_CREDIT_THRESHOLD'
     }
